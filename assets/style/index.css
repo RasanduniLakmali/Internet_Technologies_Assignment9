@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#heading{
+    color: #cb365c;
+    font-size: 25px;
+}
+.light-container {
+    display: flex;
+    gap: 5px;
+}
+
+.light {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:white;
+    transition: opacity 0.3s;
+}
+
+.buttons{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background: #8b4e3d;
+    border-color: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px;
+}
+#stop_button{
+    cursor: pointer;
+}
+#start_button{
+
+    cursor: pointer;
+}
